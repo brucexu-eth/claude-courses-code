@@ -1,11 +1,14 @@
 [
   {
-    "task": "Create a Python function to extract the AWS region from an ARN (Amazon Resource Name) string"
+    "task": "Create a regex to validate AWS IAM username format (starts with a letter, can include letters, numbers, and specific symbols like +, =, ,, ., @, _, -, max 64 characters)",
+    "format": "regex"
   },
   {
-    "task": "Write a JSON schema to validate the structure of an AWS CloudFormation template parameter definition"
+    "task": "Generate a JSON configuration for an AWS Lambda function that sets up basic environment variables and memory allocation",
+    "format": "json"
   },
   {
-    "task": "Develop a regular expression to match valid AWS EC2 instance type formats (e.g., t2.micro, c5.large, m6g.xlarge)"
+    "task": "Write a Python function to extract the AWS region from an EC2 instance ARN",
+    "format": "python"
   }
 ]
