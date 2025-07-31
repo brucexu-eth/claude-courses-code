@@ -1,14 +1,18 @@
 [
   {
-    "task": "Create a regex to validate AWS IAM username format (starts with a letter, can include letters, numbers, and specific symbols like +, =, ,, ., @, _, -, max 64 characters)",
-    "format": "regex"
-  },
-  {
-    "task": "Generate a JSON configuration for an AWS Lambda function that sets up basic environment variables and memory allocation",
-    "format": "json"
-  },
-  {
-    "task": "Write a Python function to extract the AWS region from an EC2 instance ARN",
-    "format": "python"
+    "prompt_inputs": {
+      "height": "185",
+      "weight": "78",
+      "goal": "High-altitude mountaineering endurance preparation with rapid acclimatization support",
+      "restrictions": "Gluten-free, lactose-intolerant, requires high-altitude metabolic optimization"
+    },
+    "solution_criteria": [
+      "Provides minimum 4000 calories with high-altitude nutrient profile",
+      "Includes electrolyte and protein balance for mountain performance",
+      "Accommodates specified dietary restrictions",
+      "Supports metabolic adaptation to extreme elevation conditions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test scenario targeting a high-altitude endurance athlete with extreme caloric and nutritional requirements, including unique dietary constraints like altitude acclimatization nutrition needs"
   }
 ]

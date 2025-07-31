@@ -1,0 +1,23 @@
+[
+  {
+    "output": "Here's a comprehensive meal plan for the high-altitude mountaineering athlete:\n\n**Athlete Profile Insights:**\n- Calorie Target: Approximately 3200 calories (considering high-intensity endurance preparation)\n- Macronutrient Breakdown: Protein (180g), Fat (110g), Carbs (400g)\n\n**Meal Plan for High-Altitude Mountaineering Preparation:**\n\n*   **Breakfast (6:30 AM):** Quinoa porridge with altitude-adaptation blend\n    - Quinoa (100g dry weight)\n    - Chia seeds (20g)\n    - Coconut milk (250ml)\n    - Mixed berries (100g)\n    - Himalayan pink salt (2g)\n    *   Protein: 25g, Fat: 22g, Carbs: 85g\n\n*   **Mid-Morning Performance Boost (9:30 AM):** High-energy gluten-free snack\n    - Sweet potato (150g, baked)\n    - Almond butter (30g)\n    - Pumpkin seeds (20g)\n    *   Protein: 15g, Fat: 25g, Carbs: 50g\n\n*   **Lunch (12:30 PM):** Metabolic optimization protein bowl\n    - Grass-fed beef (150g, grilled)\n    - Cauliflower rice (200g)\n    - Roasted vegetables (mixed: 250g)\n    - Olive oil dressing (25g)\n    *   Protein: 50g, Fat: 30g, Carbs: 90g\n\n*   **Pre-Afternoon Training Snack (3:30 PM):** Rapid recovery fuel\n    - Rice protein shake (40g powder)\n    - Banana (120g)\n    - Coconut water (250ml)\n    *   Protein: 35g, Fat: 5g, Carbs: 60g\n\n*   **Dinner (7:00 PM):** Altitude acclimatization meal\n    - Wild-caught salmon (180g, baked)\n    - Buckwheat (100g dry weight)\n    - Roasted asparagus (200g)\n    - Avocado (80g)\n    *   Protein: 45g, Fat: 25g, Carbs: 100g\n\n*   **Evening Recovery Snack (9:30 PM):** Muscle repair and adaptation\n    - Hemp protein balls (50g)\n    - Brazil nuts (20g)\n    - Dried goji berries (30g)\n    *   Protein: 10g, Fat: 15g, Carbs: 25g\n\n**Nutritional Strategies:**\n- Gluten-free grains (quinoa, buckwheat)\n- Lactose-free protein sources\n- High-altitude metabolism supporting foods\n- Anti-inflammatory ingredients\n- Electrolyte-rich components\n\n**Hydration Note:**\n- Minimum 3-4 liters of water\n- Electrolyte supplementation recommended\n\n**Performance Optimization Considerations:**\n- Emphasizes lean proteins\n- Complex carbohydrates for sustained energy\n- Healthy fats for hormonal balance\n- Nutrient-dense, whole food approach\n\nThis meal plan is specifically designed to support high-altitude mountaineering preparation, addressing the athlete's unique dietary restrictions while providing comprehensive nutritional support for extreme endurance activities.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "185",
+        "weight": "78",
+        "goal": "High-altitude mountaineering endurance preparation with rapid acclimatization support",
+        "restrictions": "Gluten-free, lactose-intolerant, requires high-altitude metabolic optimization"
+      },
+      "solution_criteria": [
+        "Provides minimum 4000 calories with high-altitude nutrient profile",
+        "Includes electrolyte and protein balance for mountain performance",
+        "Accommodates specified dietary restrictions",
+        "Supports metabolic adaptation to extreme elevation conditions"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test scenario targeting a high-altitude endurance athlete with extreme caloric and nutritional requirements, including unique dietary constraints like altitude acclimatization nutrition needs"
+    },
+    "score": 6,
+    "reasoning": "The solution provides a structured meal plan with precise nutritional details and addresses most criteria. However, it fails to meet the 4000 calorie requirement and lacks comprehensive electrolyte/metabolic adaptation strategies. The mandatory requirements are mostly met, but key performance optimization elements are incomplete."
+  }
+]

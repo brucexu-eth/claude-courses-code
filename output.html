@@ -1,0 +1,220 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prompt Evaluation Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+            }
+            .header {
+                background-color: #f0f0f0;
+                padding: 20px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .summary-stats {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .stat-box {
+                background-color: #fff;
+                border-radius: 5px;
+                padding: 15px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                flex-basis: 30%;
+                min-width: 200px;
+            }
+            .stat-value {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th {
+                background-color: #4a4a4a;
+                color: white;
+                text-align: left;
+                padding: 12px;
+            }
+            td {
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                vertical-align: top;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .output-cell {
+                white-space: pre-wrap;
+            }
+            .score {
+                font-weight: bold;
+                padding: 5px 10px;
+                border-radius: 3px;
+                display: inline-block;
+            }
+            .score-high {
+                background-color: #c8e6c9;
+                color: #2e7d32;
+            }
+            .score-medium {
+                background-color: #fff9c4;
+                color: #f57f17;
+            }
+            .score-low {
+                background-color: #ffcdd2;
+                color: #c62828;
+            }
+            .output {
+                overflow: auto;
+                white-space: pre-wrap;
+            }
+
+            .output pre {
+                background-color: #f5f5f5;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 10px;
+                margin: 0;
+                font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+                font-size: 14px;
+                line-height: 1.4;
+                color: #333;
+                box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+                overflow-x: auto;
+                white-space: pre-wrap; 
+                word-wrap: break-word; 
+            }
+
+            td {
+                width: 20%;
+            }
+            .score-col {
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Prompt Evaluation Report</h1>
+            <div class="summary-stats">
+                <div class="stat-box">
+                    <div>Total Test Cases</div>
+                    <div class="stat-value">1</div>
+                </div>
+                <div class="stat-box">
+                    <div>Average Score</div>
+                    <div class="stat-value">6.0 / 10</div>
+                </div>
+                <div class="stat-box">
+                    <div>Pass Rate (≥7)</div>
+                    <div class="stat-value">0.0%</div>
+                </div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Scenario</th>
+                    <th>Prompt Inputs</th>
+                    <th>Solution Criteria</th>
+                    <th>Output</th>
+                    <th>Score</th>
+                    <th>Reasoning</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            <tr>
+                <td>Test scenario targeting a high-altitude endurance athlete with extreme caloric and nutritional requirements, including unique dietary constraints like altitude acclimatization nutrition needs</td>
+                <td class="prompt-inputs"><strong>height:</strong> 185<br><strong>weight:</strong> 78<br><strong>goal:</strong> High-altitude mountaineering endurance preparation with rapid acclimatization support<br><strong>restrictions:</strong> Gluten-free, lactose-intolerant, requires high-altitude metabolic optimization</td>
+                <td class="criteria">• Provides minimum 4000 calories with high-altitude nutrient profile<br>• Includes electrolyte and protein balance for mountain performance<br>• Accommodates specified dietary restrictions<br>• Supports metabolic adaptation to extreme elevation conditions</td>
+                <td class="output"><pre>Here's a comprehensive meal plan for the high-altitude mountaineering athlete:
+
+**Athlete Profile Insights:**
+- Calorie Target: Approximately 3200 calories (considering high-intensity endurance preparation)
+- Macronutrient Breakdown: Protein (180g), Fat (110g), Carbs (400g)
+
+**Meal Plan for High-Altitude Mountaineering Preparation:**
+
+*   **Breakfast (6:30 AM):** Quinoa porridge with altitude-adaptation blend
+    - Quinoa (100g dry weight)
+    - Chia seeds (20g)
+    - Coconut milk (250ml)
+    - Mixed berries (100g)
+    - Himalayan pink salt (2g)
+    *   Protein: 25g, Fat: 22g, Carbs: 85g
+
+*   **Mid-Morning Performance Boost (9:30 AM):** High-energy gluten-free snack
+    - Sweet potato (150g, baked)
+    - Almond butter (30g)
+    - Pumpkin seeds (20g)
+    *   Protein: 15g, Fat: 25g, Carbs: 50g
+
+*   **Lunch (12:30 PM):** Metabolic optimization protein bowl
+    - Grass-fed beef (150g, grilled)
+    - Cauliflower rice (200g)
+    - Roasted vegetables (mixed: 250g)
+    - Olive oil dressing (25g)
+    *   Protein: 50g, Fat: 30g, Carbs: 90g
+
+*   **Pre-Afternoon Training Snack (3:30 PM):** Rapid recovery fuel
+    - Rice protein shake (40g powder)
+    - Banana (120g)
+    - Coconut water (250ml)
+    *   Protein: 35g, Fat: 5g, Carbs: 60g
+
+*   **Dinner (7:00 PM):** Altitude acclimatization meal
+    - Wild-caught salmon (180g, baked)
+    - Buckwheat (100g dry weight)
+    - Roasted asparagus (200g)
+    - Avocado (80g)
+    *   Protein: 45g, Fat: 25g, Carbs: 100g
+
+*   **Evening Recovery Snack (9:30 PM):** Muscle repair and adaptation
+    - Hemp protein balls (50g)
+    - Brazil nuts (20g)
+    - Dried goji berries (30g)
+    *   Protein: 10g, Fat: 15g, Carbs: 25g
+
+**Nutritional Strategies:**
+- Gluten-free grains (quinoa, buckwheat)
+- Lactose-free protein sources
+- High-altitude metabolism supporting foods
+- Anti-inflammatory ingredients
+- Electrolyte-rich components
+
+**Hydration Note:**
+- Minimum 3-4 liters of water
+- Electrolyte supplementation recommended
+
+**Performance Optimization Considerations:**
+- Emphasizes lean proteins
+- Complex carbohydrates for sustained energy
+- Healthy fats for hormonal balance
+- Nutrient-dense, whole food approach
+
+This meal plan is specifically designed to support high-altitude mountaineering preparation, addressing the athlete's unique dietary restrictions while providing comprehensive nutritional support for extreme endurance activities.</pre></td>
+                <td class="score-col"><span class="score score-medium">6</span></td>
+                <td class="reasoning">The solution provides a structured meal plan with precise nutritional details and addresses most criteria. However, it fails to meet the 4000 calorie requirement and lacks comprehensive electrolyte/metabolic adaptation strategies. The mandatory requirements are mostly met, but key performance optimization elements are incomplete.</td>
+            </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    
